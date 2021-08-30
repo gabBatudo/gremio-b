@@ -1,0 +1,66 @@
+html, body, header {
+    overflow-x: hidden; 
+}
+
+.esPaddingTop {
+    padding-top: 20px;
+}
+
+
+.bg-cor {
+    background-color: rgb(248, 245, 245);
+    width: 100%;
+}
+
+.bg-navcor{
+    background-color: #B20000;
+    width: 100%;
+}
+
+.navbar-cor{
+    color: white;
+    width: 100%;
+}
+
+.lados{
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.nav-link{
+    color: white !important;
+}
+
+.nav-link:hover{
+    color: gold !important;
+}
+
+.navbar-brand{
+    padding-top: 0;
+}
+
+.text-justify{
+    text-align: justify;
+}
+
+.bg-footer{
+    background-color:rgb(180, 179, 179);
+    width: 100%;
+}
+
+.bg-footer2{
+    background-color: rgb(119, 119, 119);
+    width: 100%;
+}
+
+.footer-b{
+    padding-bottom: 0;
+    color: white;
+}
+
+.noPadding{
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+
