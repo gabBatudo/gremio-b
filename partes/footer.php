@@ -1,4 +1,4 @@
-    <div class="container-fluid bg-footer" style="padding-top: 2rem;">
+    <div class="container-fluid bg-footer" style="padding-top: 2rem;" id="footerMobile">
         <div class="row">
             <div class="col-auto">
                 <ul class="nav d-fle justify-content-between text-uppercase">
@@ -6,7 +6,7 @@
                         <a class="nav-link active" aria-current="page" href="index.php">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Sobre</a>
+                        <a class="nav-link" href="sobre.php">Sobre</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Calendário</a>

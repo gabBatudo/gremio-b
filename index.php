@@ -1,7 +1,7 @@
 <?php include('./partes/header.php') // Header do html junto do bootstrap?>
 <?php include('./partes/navbar.php') // Navbar e Imagem do site?>
 
-    <section class="bg-cor">
+    <section class="bg-cor" id="secIndex">
         <div class="container bg-cor">
             <div class="row d-flex justify-content-center py-5">
                 <div class="col-auto">
