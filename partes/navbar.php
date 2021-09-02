@@ -12,7 +12,7 @@
             </div>
 
             <div class="col-auto">
-                <ul class="nav d-flex justify-content-between text-uppercase">
+                <ul class="nav d-flex justify-content-between text-uppercase"> <!-- Navbar páginas !-->
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="index.php">Home</a>
                     </li>
@@ -20,21 +20,23 @@
                         <a class="nav-link" href="sobre.php">Sobre</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Calendário</a>
+                        <a class="nav-link" href="calendario.php">Calendário</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Galeria</a>
+                        <a class="nav-link" href="galeria.php">Galeria</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contato</a>
+                        <a class="nav-link" href="contato.php">Contato</a>
                     </li>
                 </ul>
             </div>
         </div>
     </header>
 
-    <div class="container" id="siteCapa">
-        <div class="row">
-            <img src="./imagens/capa2.jpg" alt="" class="image-fluid">
+    <section class="bg-cor" id="secBanner"> <!-- Banner do Grêmio!-->
+        <div class="container" id="siteCapa">
+            <div class="row">
+                <img src="./imagens/capa2.jpg" alt="" class="image-fluid">
+            </div>
         </div>
-    </div>
+    </section>

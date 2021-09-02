@@ -2,14 +2,16 @@
 <?php include('./partes/navbar.php') // Navbar e Imagem do site?>
 <?php include('./partes/sobreMembros.php') // Dados dos Cards ?>
 
-    <section class="bg-cor">
+    <section class="bg-cor" id="secSobre">
         <div class="container bg-cor">
             <div class="row d-flex justify-content-center py-5">
                 <h1 class="text-center">Sobre nós</h1>
                 <h3 class="text-center">O Grêmio</h3>
+                <!-- Cards dos membros do grêmio!-->
                 <div class="row row-cols-2 row-cols-md-4 g-5">
                     <?php
                         foreach ($rows as $row) {
+                            // Loop que preenche os Cards com os dados do "./partes/sobreMembros"
                             print 
                             '<div class="col">
                                 <div class="card text-white bg-'.$row['cor'].' h-100">
@@ -22,7 +24,8 @@
                                         <b>'.$row['cargo'].'</b>
                                     </div>
                                 </div>
-                            </div>';
+                            </div>
+                            ';
                         }
                     ?>
                 </div>

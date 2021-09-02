@@ -1,7 +1,7 @@
 html, body, header {
     overflow-x: hidden; 
 }
-
+/* ./partes/navbar.php */
 .esPaddingTop {
     padding-top: 20px;
 }
@@ -15,34 +15,20 @@ html, body, header {
     text-align: center;
     font-size: 30px;
     height: 50px;
-}
-
-.bt_menu{
     display: none;
 }
-
 
 .bg-cor {
     background-color: rgb(248, 245, 245);
     width: 100%;
 }
 
-.bg-navcor{
+.bg-navcor{ /* Também aparece no calendario.php e galeria.php */
     background-color: #B20000;
     width: 100%;
 }
 
-.navbar-cor{
-    color: white;
-    width: 100%;
-}
-
-.lados{
-    padding-left: 15%;
-    padding-right: 15%;
-}
-
-.nav-link{
+.nav-link{ /* Também aparece no ./partes/footer.php */
     color: white !important;
 }
 
@@ -54,9 +40,18 @@ html, body, header {
     padding-top: 0;
 }
 
+/* index.php */
+
+.lados{
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
 .text-justify{
     text-align: justify;
 }
+
+/* ./partes/footer */
 
 .bg-footer{
     background-color:rgb(180, 179, 179);
@@ -78,7 +73,26 @@ html, body, header {
     margin: 0 !important;
 }
 
+/* calendario.php */
+
+.fs-17{
+   font-size: 17px; 
+}
+
+.invisivel{
+    visibility: hidden;
+}
+
+/* galeria.php */
+
+p.texto{ /* Também aparece em ./partes/galeriaR.php */
+    padding-right: 8rem !important;
+    padding-left: 8rem !important;
+}
+
+/* Media Query 700px */
 @media (max-width: 700px) { 
+    /* ./partes/navbar.php */
     #brand{
         display: none;
     }
@@ -114,6 +128,8 @@ html, body, header {
         width: 100%;
     }
 
+    /* index.php */
+
     #secIndex .card{
         width: 20rem !important;
     }
@@ -128,13 +144,21 @@ html, body, header {
         padding-right: 5%;
     }
 
+    #secIndex .nav-link{
+        font-size: 17px;
+    }
+
+    /* ./partes/footer.php */
+
     #footerMobile{
         display: none;
     }
 
-    #secIndex .nav-link{
-        font-size: 17px;
-    }
+    /* sobre.php */
+
+    #secSobre .col{
+        width: 100% !important;
+    }  
 
 }
 

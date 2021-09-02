@@ -1,4 +1,6 @@
 <?php
+
+    // Array com os membros do grêmio da sobre.php
     $rows = array(
         "rafael" => array(
             "imagem" => "./imagens/sobreMembros/rafael.jpg",
@@ -66,7 +68,7 @@
 
         "bia" => array(
             "imagem" => "./imagens/sobreMembros/bia.jpg",
-            "cor" => "danger",
+            "cor" => "secondary",
             "nome" => "Beatriz Reis",
             "proposta" => "Proposta: nas aulas de Ed. Física ter  exercícios alongamentos para que os alunos não sofram com dores e cansaço.",
             "cargo" => "Diretora de Esportes"
@@ -74,7 +76,7 @@
 
         "anacristina" => array(
             "imagem" => "./imagens/sobreMembros/anacristina.jpg",
-            "cor" => "danger",
+            "cor" => "secondary",
             "nome" => "Ana Cristina",
             "proposta" => "Proposta: manter as festividades culturais da escola com máxima segurança em mediante a situação que nos encontramos, e adicionar novos eventos para que todos possam participar.",
             "cargo" => "Diretora de Cultura"
@@ -82,7 +84,7 @@
 
         "julio" => array(
             "imagem" => "./imagens/sobreMembros/julio.jpg",
-            "cor" => "danger",
+            "cor" => "secondary",
             "nome" => "Júlio César",
             "proposta" => "Proposta: A implementação de lixeiras de coleta seletiva. Também que 1 vez no mês, todos os alunos juntassem alumínio (latas, tampinhas, etc...) que por sua vez tem mais valor; e transformássemos em verba para a escola. O com mais latas receberia um brinde.",
             "cargo" => "Diretor de Saúde e Meio-Ambiente"
