@@ -4,8 +4,11 @@
     <section class="bg-cor">
         <div class="container">
             <div class="row d-flex justify-content-center">
+                <!-- Parte do Mobile, por conta de que ele não cobria a página inteira, foi necessario colocar um fora e um dentro do col !-->
+                <div class="container-fluid h1 py-3 bg-navcor text-white text-center calBorda" id="calMobile">Plano de Ações</div>
                 <div class="col">
-                    <h1 class="text-center bg-navcor text-white py-3">Fale Conosco</h1>
+                    <!-- Parte do PC !-->
+                    <div class="container-fluid h1 py-3 bg-navcor text-white text-center calBorda" id="calPC">Plano de Ações</div>
                     <h2 class="text-center ">Contato</h2>
                     <ul class="list-group justify-content-center fs-17">
                         <!-- Lista de Contatos 

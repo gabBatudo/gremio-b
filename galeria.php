@@ -3,51 +3,54 @@
 <?php include('./partes/galeriaR.php') // Dados das Imagens e dos Textos?>
 
     
-    <section class="bg-cor">
+    <section class="bg-cor" id="secGal">
         <div class="container">
             <div class="row">
+                <!-- Parte do Mobile, por conta de que ele não cobria a página inteira, foi necessario colocar um fora e um dentro do col !-->
+                <div class="container-fluid h1 py-3 bg-navcor text-white text-center calBorda" id="calMobile">Paulo Freire</div>
                 <div class="col ">
-                <h1 class="text-center bg-navcor text-white py-3">Plano de Ações</h1>
-                <h2 class="text-center" style="padding-bottom: 15px;">Caricaturas</h2>
-                <!-- Carrossel de Imagens !-->
-                <div id="carouselExampleDark" class="carousel carousel-dark slide" style="width: 400px; margin: 0 auto">
-                    <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                        <?php
-                            // Loop para que se tenha o valor necessario de Indicators no carrossel
-                            $i = 1;
-                            while ($i <= 28) {
-                                print '<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="'.$i.'" aria-label="Slide '.$i.'"></button>';
-                                $i++;
-                            }
-                        ?>
-                    </div>
-                    <div class="carousel-inner">
-                        <!-- Na parte das imagens, é preciso que se tenha um item com a classe active nele,
-                        SE NÃO o carrossel não irá ficar visivel!-->
-                        <div class="carousel-item active">
-                            <img src="./imagens/caricaturas/1.jpg" alt="caricaturas" class="d-block w-100">
+                    <!-- Parte do PC !-->
+                    <div class="container-fluid h1 py-3 bg-navcor text-white text-center" id="calPC">Paulo Freire</div>
+                    <h2 class="text-center" style="padding-bottom: 15px;">Caricaturas</h2>
+                    <!-- Carrossel de Imagens !-->
+                    <div id="carouselExampleDark" class="carousel carousel-dark slide" style="width: 400px; margin: 0 auto">
+                        <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                    <?php
+                                    // Loop para que se tenha o valor necessario de Indicators no carrossel
+                                    $i = 1;
+                                    while ($i <= 28) {
+                                        print '<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="'.$i.'" aria-label="Slide '.$i.'"></button>';
+                                        $i++;
+                                    }
+                                ?>
                         </div>
-                        <?php
-                            // Loop que pega as imagens da pasta "./imagens/caricaturas" e adiciona no carroussel
-                            $i = 2;
-                            while ($i <= 28) {
-                                print '<div class="carousel-item">
-                                        <img src="./imagens/caricaturas/'.$i.'.jpg" alt="caricaturas" class="d-block w-100">
-                                </div>';
-                                $i++;
-                            }
-                        ?>
+                        <div class="carousel-inner">
+                            <!-- Na parte das imagens, é preciso que se tenha um item com a classe active nele,
+                            SE NÃO o carrossel não irá ficar visivel!-->
+                            <div class="carousel-item active">
+                                <img src="./imagens/caricaturas/1.jpg" alt="caricaturas" class="d-block w-100">
+                            </div>
+                            <?php
+                                // Loop que pega as imagens da pasta "./imagens/caricaturas" e adiciona no carroussel
+                                $i = 2;
+                                while ($i <= 28) {
+                                    print '<div class="carousel-item">
+                                            <img src="./imagens/caricaturas/'.$i.'.jpg" alt="caricaturas" class="d-block w-100">
+                                    </div>';
+                                    $i++;
+                                }
+                            ?>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
-                </div>
 
                 <!-- Carrossel de Textos !-->
                 <h2 class="text-center" style="padding-bottom: 15px; padding-top: 15px">Redações</h2>

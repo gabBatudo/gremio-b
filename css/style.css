@@ -85,13 +85,121 @@ html, body, header {
 
 /* galeria.php */
 
+#calMobile{
+    display: none;
+}
+
 p.texto{ /* Também aparece em ./partes/galeriaR.php */
     padding-right: 8rem !important;
     padding-left: 8rem !important;
 }
 
+/* Media Query 340px */
+@media (max-width: 340px) {
+    /* ./partes/navbar.php */
+    #brand{
+        display: none;
+    }
+
+    #siteCapa{
+        display: none;
+    }
+
+    .bt_menu{
+        display: block;
+        width: 100%;
+    }
+
+    header .row{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    header .col-auto{
+        display: block;
+        justify-content: space-evenly;
+    }
+
+    header .nav{
+        justify-content: center !important;
+        margin-bottom: 1rem;
+    }
+
+    header .nav-item{
+        border-bottom: 1px solid black;
+        text-align: center;
+        width: 100%;
+    }
+
+    /* index.php */
+
+    #secIndex .row .col-auto{
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        max-width: unset;
+    }
+
+    #secIndex .card{
+        width: 20rem !important;
+    }
+
+    #secIndex .card-text{
+        font-size: 15px;
+        font-family: 'Proxima Nova';
+    }
+
+    #secIndex .lados{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    #secIndex .nav-link{
+        font-size: 17px;
+    }
+
+    /* ./partes/footer.php */
+
+    #footerMobile{
+        display: none;
+    }
+
+    /* sobre.php */
+
+    #secSobre .col{
+        width: 100% !important;
+    }
+
+    /* calendario.php */
+    .calBorda{
+        border-top: 3px solid black;
+    }
+
+    #calMobile{
+        display: block;
+    }
+
+    #calPC{
+        display: none;
+    }
+
+    /* galeria.php */
+
+    #secGal .texto{
+        font-family: 'Proxima Nova';
+        padding-right: 3rem !important;
+        padding-left: 3rem !important;
+    }
+
+    #secGal #carouselExampleDark{
+        width: unset !important;
+    }
+}
+
+
+
 /* Media Query 700px */
-@media (max-width: 700px) { 
+@media (max-width: 700px) and (min-width: 340px) { 
     /* ./partes/navbar.php */
     #brand{
         display: none;
@@ -136,7 +244,7 @@ p.texto{ /* Também aparece em ./partes/galeriaR.php */
 
     #secIndex .card-text{
         font-size: 15px;
-        font-family: 'Proxima Nova'
+        font-family: 'Proxima Nova';
     }
 
     #secIndex .lados{
@@ -158,6 +266,63 @@ p.texto{ /* Também aparece em ./partes/galeriaR.php */
 
     #secSobre .col{
         width: 100% !important;
+    }  
+
+    /* calendario.php */
+    .calBorda{
+        border-top: 3px solid black;
+    }
+
+    #calMobile{
+        display: block;
+    }
+
+    #calPC{
+        display: none;
+    }
+
+    /* galeria.php */
+
+    #secGal .texto{
+        font-family: 'Proxima Nova';
+        padding-right: 3rem !important;
+        padding-left: 3rem !important;
+    }
+
+    #secGal #carouselExampleDark{
+        width: unset !important;
+    }
+}
+
+
+/* Media Query 1100px */
+@media (max-width: 1100px){ 
+    
+    /* index.php */
+
+    #secIndex .card{
+        width: 40rem !important;
+    }
+
+    #secIndex .card-text{
+        font-size: 15px;
+        font-family: 'Proxima Nova';
+    }
+
+    #secIndex .lados{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    #secIndex .nav-link{
+        font-size: 17px;
+    }
+
+
+    /* sobre.php */
+
+    #secSobre .col{
+        width: 50% !important;
     }  
 
 }

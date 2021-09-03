@@ -6,11 +6,14 @@
             <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
         </symbol>
     </svg>
-    <section class="bg-cor">
+    <section class="bg-cor" id="secCalendario">
         <div class="container">
             <div class="row d-flex justify-content-center">
+                <!-- Parte do Mobile, por conta de que ele não cobria a página inteira, foi necessario colocar um fora e um dentro do col !-->
+                <div class="container-fluid h1 py-3 bg-navcor text-white text-center calBorda" id="calMobile">Plano de Ações</div>
                 <div class="col">
-                    <h1 class="text-center bg-navcor text-white py-3">Plano de Ações</h1>
+                    <!-- Parte do PC !-->
+                    <div class="container-fluid h1 py-3 bg-navcor text-white text-center" id="calPC">Plano de Ações</div>
                     <h2 class="text-center ">Eventos e Sábados Letivos</h2>
                     <ul class="list-group justify-content-center fs-17">
                         <!-- Lista dos Eventos e dos Sábados Letivos, o SVG se refere ao simbolo de Sucesso! 
