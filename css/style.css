@@ -1,4 +1,4 @@
-html, body, header {
+html, body {
     overflow-x: hidden; 
 }
 /* ./partes/navbar.php */
@@ -95,7 +95,7 @@ p.texto{ /* Também aparece em ./partes/galeriaR.php */
 }
 
 /* Media Query 340px */
-@media (max-width: 340px) {
+@media (max-width: 320px) {
     /* ./partes/navbar.php */
     #brand{
         display: none;
@@ -110,23 +110,27 @@ p.texto{ /* Também aparece em ./partes/galeriaR.php */
         width: 100%;
     }
 
-    header .row{
+    .navbar{
+        flex-direction: column !important;
+    }
+
+    nav .row{
         display: flex;
         align-items: center;
         justify-content: center;
     }
 
-    header .col-auto{
+    nav .col-auto{
         display: block;
         justify-content: space-evenly;
     }
 
-    header .nav{
+    nav .navbar-nav{
         justify-content: center !important;
         margin-bottom: 1rem;
     }
 
-    header .nav-item{
+    nav .nav-item{
         border-bottom: 1px solid black;
         text-align: center;
         width: 100%;
@@ -214,23 +218,27 @@ p.texto{ /* Também aparece em ./partes/galeriaR.php */
         width: 100%;
     }
 
-    header .row{
+    .navbar{
+        flex-direction: column !important;
+    }
+
+    nav .navbar-nav{
         display: flex;
         align-items: center;
         justify-content: center;
     }
 
-    header .col-auto{
+    nav .col-auto{
         display: block;
         justify-content: space-evenly;
     }
 
-    header .nav{
+    nav .navbar-nav{
         justify-content: center !important;
         margin-bottom: 1rem;
     }
 
-    header .nav-item{
+    nav .nav-item{
         border-bottom: 1px solid black;
         text-align: center;
         width: 100%;
