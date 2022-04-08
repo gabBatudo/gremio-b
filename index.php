@@ -13,9 +13,9 @@
                 echo "<div class='row d-flex justify-content-center py-5'>
                         <div class='col-auto'>
                             <div class='card' style='width: 45rem;'>
-                            <div class='card-body d-flex flex-column justify-content-center'>
-                                <h5 class='card-title text-center'>".$linha['title']."</h5>
-                                <pre class='card-text text-justify lados' style='width: 100%; white-space: pre-line;'>".$linha['content']."</pre>
+                            <div class='card-body text-center justify-content-center'>
+                                <a class='card-title text-center h5' role='button' href='./ptg_visualizar.php?id=".$linha['id']."'>".$linha['title']."</a>
+                                <pre class='card-text text-justify lados text-truncate py-3' style='width: 100%;'>".$linha['content']."</pre>
                             </div>
                             <div class='card-footer'>
                               Escrito por <cite title='Escrito por'>".$linha['credits']."</cite>

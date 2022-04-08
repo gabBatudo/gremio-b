@@ -50,11 +50,10 @@
         </div>
     </nav>
 
-
     <section class="bg-cor" id="secBanner"> <!-- Banner do Grêmio!-->
         <div class="container" id="siteCapa">
             <div class="row">
-                <img src="/gremio-b/imagens/capa2.jpg" alt="" class="image-fluid">
+                <img src="/gremio-b/imagens/capa2.jpg" class="img-fluid">
             </div>
         </div>
     </section>
