@@ -11,9 +11,9 @@
                     <li class="nav-item">
                         <a class="nav-link" href="calendario.php">Calendário</a>
                     </li>
-                    <li class="nav-item">
+                    <!-- <li class="nav-item">
                         <a class="nav-link" href="galeria.php">Galeria</a>
-                    </li>
+                    </li> -->
                     <li class="nav-item">
                         <a class="nav-link" href="contato.php">Contato</a>
                     </li>
