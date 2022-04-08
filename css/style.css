@@ -36,6 +36,10 @@ html, body {
     color: gold !important;
 }
 
+#hoverCont:hover{
+    color: gold !important;
+}
+
 .navbar-brand{
     padding-top: 0;
 }
