@@ -1,4 +1,7 @@
 <?php
+
+    SESSION_CRUD();
+
     include("../../bd/connect.php");
 
 

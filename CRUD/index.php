@@ -1,6 +1,19 @@
 <?php
+
     include('../partes/header.php');
+
+    if(!isset($_SESSION['user'], $_SESSION['password'])){
+        ?>
+
+        <script>
+            window.location.href = '../SESSION/login.php';
+        </script>
+
+        <?php
+    }
+
     include('../partes/navbar.php');
+
 ?>
 
 <?php

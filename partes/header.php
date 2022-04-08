@@ -2,6 +2,20 @@
     include($_SERVER["DOCUMENT_ROOT"] . "/gremio-b/bd/connect.php");
 
     session_start();
+
+    function SESSION_CRUD(){
+        session_start();
+
+        if(!isset($_SESSION['user'], $_SESSION['password'])){
+            ?>
+
+            <script>
+                window.location.href = '../../SESSION/login.php';
+            </script>
+
+            <?php
+        }
+    }
 ?>
 
 <!DOCTYPE html>
