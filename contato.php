@@ -7,6 +7,7 @@
                 <!-- Parte do Mobile, por conta de que ele não cobria a página inteira, foi necessario colocar um fora e um dentro do col !-->
                 <div class="container-fluid h1 py-3 bg-navcor text-white text-center calBorda" id="calMobile">Contato</div>
                 <div class="col">
+                    
                     <!-- Parte do PC !-->
                     <div class="container-fluid h1 py-3 bg-navcor text-white text-center calBorda" id="calPC">Contato</div>
                     <ul class="list-group justify-content-center fs-17">
