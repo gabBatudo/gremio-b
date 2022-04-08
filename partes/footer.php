@@ -6,16 +6,16 @@
                         <a class="nav-link active" aria-current="page" href="index.php">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="sobre.php">Sobre</a>
+                        <a class="nav-link" href="/gremio-b/sobre.php">Sobre</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="calendario.php">Calendário</a>
+                        <a class="nav-link" href="/gremio-b/calendario.php">Calendário</a>
                     </li>
                     <!-- <li class="nav-item">
                         <a class="nav-link" href="galeria.php">Galeria</a>
                     </li> -->
                     <li class="nav-item">
-                        <a class="nav-link" href="contato.php">Contato</a>
+                        <a class="nav-link" href="/gremio-b/contato.php">Contato</a>
                     </li>
                     <li class="img-responsive"> <!-- Imagens FAT - CPS - Governo SP !-->
                         <img src="https://fatweb.s3.amazonaws.com/vestibulinhoetec/assets/img/layout/logo-fat-footer.png" alt="FAT">

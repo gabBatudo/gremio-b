@@ -1,5 +1,5 @@
 <?php
-    include("./bd/connect.php");
+    include("../../bd/connect.php");
 
 
     $nome = $_POST['nome'];
@@ -22,13 +22,13 @@
         ?>
             <script>
                 alert("Ocorreu um erro para adicionar o membro. Tente novamente!")
-                window.location.href='crud.php'
+                window.location.href='../index.php'
             </script>
         <?php
     } else {
         ?>
         <script>
-            window.location.href="crud.php"
+            window.location.href="../index.php"
         </script>
         <?php
     }

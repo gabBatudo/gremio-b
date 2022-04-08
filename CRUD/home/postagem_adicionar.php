@@ -1,6 +1,6 @@
 <?php
-    include('./partes/header.php');
-    include('./partes/navbar.php');
+    include('../../partes/header.php');
+    include('../../partes/navbar.php');
 ?>
 
     <section class="bg-cor" id="secIndex">
@@ -8,7 +8,7 @@
             <div class='row d-flex justify-content-center py-5'>
                 <div class='col-auto'>
                     <h3 style="text-align: center;">Criando Postagem..</h3>
-                    <form action="Postagem_criar.php" method="POST">
+                    <form action="./postagem_criar.php" method="POST">
                         <div class='card' style='width: 45rem;'>
                             <div class='card-body d-flex flex-column justify-content-center'>
                                 <h5 class='card-title text-center'><input type="text" name="title" placeholder="Digite o titulo" style="text-align: center;" /></h5>
@@ -28,5 +28,5 @@
     </section>
 
 <?php
-    include('./partes/footer.php')
+    include('../../partes/footer.php')
 ?>

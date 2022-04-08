@@ -1,6 +1,6 @@
 <?php
-    include('./partes/header.php');
-    include('./partes/navbar.php');
+    include('../../partes/header.php');
+    include('../../partes/navbar.php');
 ?>
 
     <section class="bg-cor" id="secSobre">
@@ -10,7 +10,7 @@
                 <h3 class="text-center p-2">Adicionando Membro...</h3>
                 <div class="row row-cols-2 row-cols-md-4 gx-5 gy-2 justify-content-center">
                     <div class="col">
-                        <form action="Membros_add.php" method="POST">
+                        <form action="/membros_add.php" method="POST">
                             <div class="card text-white bg-default h-100">
                                 <div class="card-body">
                                     <h5 class="card-title"><input type="text" name="nome" placeholder="Digite o nome" /></h5>
@@ -40,5 +40,5 @@
     </section>
 
 <?php
-    include('./partes/footer.php')
+    include('../../partes/footer.php')
 ?>

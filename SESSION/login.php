@@ -9,7 +9,7 @@
 <body>
     <div class="container">
         <div class="login">
-            <form action="logar.php" method="post">
+            <form action="./logar.php" method="post">
                 <div class="input-control">
                     <label for="user">User:</label>
                     <input type="text" name="user" placeholder="insira o usuario" id="user">

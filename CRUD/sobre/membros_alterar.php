@@ -1,6 +1,6 @@
 <?php
-    include('./partes/header.php');
-    include('./partes/navbar.php');
+    include('../../partes/header.php');
+    include('../../partes/navbar.php');
 
     $id = $_GET['id'];
 
@@ -24,7 +24,7 @@
                 <h3 class="text-center p-2">Editando Membro...</h3>
                 <div class="row row-cols-2 row-cols-md-4 gx-5 gy-2 justify-content-center">
                     <div class="col">
-                        <form action="Membros_alterardados.php" method="POST">
+                        <form action="./membros_alterardados.php" method="POST">
                             <div class="card text-white bg-default h-100">
                                 <div class="card-body">
                                     <h5 class="card-title"><input type="text" name="nome" value="<?php echo $nome ?>" placeholder="Digite o nome" /></h5>
@@ -64,5 +64,5 @@
     </section>
 
 <?php
-    include('./partes/footer.php')
+    include('../../partes/footer.php')
 ?>

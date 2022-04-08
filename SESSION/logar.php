@@ -1,6 +1,6 @@
 <?php
 
-    include("./bd/connect.php");
+    include("../bd/connect.php");
 
     $usuario = $_POST['user'];
     $pass = $_POST['pass'];
@@ -17,8 +17,7 @@
 
         ?>
             <script>
-                alert('sim');
-                window.location.href='index.php';
+                window.location.href='../index.php';
             </script>
         <?php
     }else{
@@ -28,8 +27,8 @@
 
         ?>
             <script>
-                alert('nao');
-                window.location.href='index.php';
+                alert("User ou senha incorretos");
+                window.location.href='../index.php';
             </script>
         <?php
     }

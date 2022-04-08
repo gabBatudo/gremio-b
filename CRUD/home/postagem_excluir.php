@@ -1,6 +1,6 @@
 <?php
 
-    include("./bd/connect.php");
+    include("../../bd/connect.php");
 
     $id = $_GET["id"];
 
@@ -14,13 +14,13 @@
         ?>
         <script>
             alert("Postagem não excluida!");
-            window.location.href = "crud.php";
+            window.location.href = "../index.php";
         </script>
         <?php
     }else{
         ?>
         <script>
-            window.location.href = "crud.php";
+            window.location.href = "../index.php";
         </script>
         <?php
     }

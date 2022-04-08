@@ -1,5 +1,5 @@
 <?php
-    include("./bd/connect.php");
+    include("../../bd/connect.php");
 
 
     $title = $_POST['title'];
@@ -18,13 +18,13 @@
         ?>
             <script>
                 alert("Ocorreu um erro para salvar a postagem. Tente novamente!")
-                window.location.href='Postagem_adicionar.php'
+                window.location.href='./postagem_adicionar.php'
             </script>
         <?php
     } else {
         ?>
             <script>
-                window.location.href="crud.php"
+                window.location.href="../index.php"
             </script>
         <?php
     }
