@@ -1,8 +1,8 @@
 <?php
 
-    SESSION_CRUD();
-
     include("../../bd/connect.php");
+
+    SESSION_CRUD();
 
 
     $title = $_POST['title'];

@@ -8,7 +8,7 @@
 
     echo $id;
 
-    $script = "DELETE FROM postagem WHERE id = '$id'";
+    $script = "DELETE FROM contato WHERE id = '$id'";
 
     $exec_mysqli_delete = mysqli_query($connect, $script);
 
